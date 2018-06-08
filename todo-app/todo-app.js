@@ -1,4 +1,6 @@
-const todos = getSavedTodos()
+'use strict'
+
+let todos = getSavedTodos()
 
 const filters = {
     searchText: '',
